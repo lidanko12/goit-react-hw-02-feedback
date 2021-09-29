@@ -1,0 +1,39 @@
+.container {
+  margin: 20px 10;
+}
+
+.btn {
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  padding: 4px 10px;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background-color: #6bd0dd;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  font-size: 16px;
+
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+}
+.btn:first-child {
+  background-color: #008000;
+}
+.btn:nth-child(2) {
+  background-color: #ff0000;
+}
+.btn:nth-child(3) {
+  background-color: #808080;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
+
+.btn:active {
+  background-color: #9fb8d8;
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}

@@ -1,10 +1,10 @@
 
 import './App.css';
 import React, { Component } from 'react';
-import Section from './Sections';
-import Notification from './Notifications';
-import FeedbackOptions from './Feedback';
-import Statistics from './Statistics';
+import Section from './components/Sections';
+import Notification from './components/Notifications';
+import FeedbackOptions from './components/Feedback';
+import Statistics from './components/Statistics';
 
 export default class App extends Component {
   state = {
